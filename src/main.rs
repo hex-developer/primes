@@ -1,14 +1,14 @@
 fn main() {
     println!("Let's find some primes!");
 
-    let mut counter: i128 = 3;
+    let mut counter: u128 = 3;
 
-    let mut primes: Vec<i128> = vec![2];
+    let mut primes: Vec<u128> = vec![2];
 
     loop {
         // println!("Testing {counter}");
 
-        let mut new_primes: Vec<i128> = Vec::new();
+        let mut new_primes: Vec<u128> = Vec::new();
 
         'for_loop: for prime in &primes {
             // println!("Testing if {counter} is divisible by {prime}");
